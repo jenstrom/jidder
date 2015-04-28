@@ -1,0 +1,136 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: #aad9ea;
+	/*background: url('../pics/DR-Graveyard.jpg');
+	background-size: 100%;*/
+}
+
+.content{
+	height: 85%;
+}
+
+.content > .row > div{
+	background-color: #F8F8F8;
+	border-radius: 4px;
+
+}
+
+#container-startpage{
+	height: 100%;
+}
+#content-startpage{
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+	display: table;
+}
+
+#content-startpage h1{
+	color: #F8F8F8;
+	-webkit-text-stroke: 1px #e7e7e7;
+}
+
+.row-startpage{
+  	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+#login{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: #F8F8F8;
+}
+
+
+#register{
+	padding: 15px;
+	border-radius: 15px;
+	margin-top: 20px;
+	background-color: #F8F8F8;
+}
+
+#write-message-area{
+	margin-bottom: 1%;
+}
+
+#message-area{
+	height: 75%;
+}
+
+
+#pagination{
+	margin-top: 1%;
+	height: 4%;
+}
+
+#message-area > div{
+	overflow:auto;
+
+}
+
+#profile-message-area{
+	height: 90%;
+	overflow: auto;
+	border: 1px solid #e7e7e7;
+}
+
+#content > .row{
+	margin: 20px;
+}
+
+.message-avatar{
+	padding: 10px 0px;
+	height: 100px;
+
+}
+
+.message-avatar > img{
+	border-radius: 5px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.message{
+	margin: 0;
+	height: 120px;
+}
+
+
+
+.message-text > p{
+	padding: 0;
+	word-wrap: break-word;
+}
+
+.hundred{
+	height: 100%;
+}
+
+#profile-picture > img{
+
+	max-width: 100%;
+	max-height: 50%;
+}
+
+.navbar{
+	margin-bottom: 1%;
+}
+
+
+@media (min-width: 992px) {
+	#content-startpage > .row-startpage > h1{
+		margin-top: 0;
+		margin-bottom: 50px;
+	}
+
+	#register{
+		margin-top: 0;
+	}
+}
